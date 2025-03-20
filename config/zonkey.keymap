@@ -33,10 +33,10 @@
             tapping-term-ms = <200>;
         };
 
-        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+        scroll_down_up: behavior_sensor_rotate_mouse_wheel_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
             tap-ms = <20>;
         };
@@ -54,7 +54,7 @@
             >;
 
             sensor-bindings =
-                <&scroll_up_down>,
+                <&scroll_down_up>,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
@@ -66,7 +66,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &kp F12
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_down_up>;
         };
 
         layer_2 {
@@ -77,7 +77,7 @@
 &trans                      &trans           &trans           &trans           &trans        &trans                     &trans          &trans                                                                     &kp PIPE
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_down_up>;
         };
 
         layer_3 {
@@ -88,7 +88,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans    &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_down_up>;
         };
 
         layer_4 {
@@ -99,7 +99,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_down_up>;
         };
 
         layer_5 {
@@ -110,7 +110,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_down_up>;
         };
 
         MOUSE {
@@ -121,7 +121,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_down_up>;
         };
     };
 };
