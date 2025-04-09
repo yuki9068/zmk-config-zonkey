@@ -31,13 +31,12 @@ ZMKfirmware採用\
 25mmベアリング仕様トラックボールケース（ベアリング４個）\
 34mmベアリング仕様トラックボールケース（ベアリング４個）\
 LEDによるバッテリー残量、BLE接続状態の簡易表示\
-バッテリー容量：左手側300mAh  右手側500mAh\
+バッテリー容量：左手側300mAh  右手側500mAh
 
 ![Image](https://github.com/user-attachments/assets/5f487546-771b-44a3-b13c-cabdf2f41b11)
 
-**２. 商品詳細**
 
-**2-1. 商品内容**
+**2. 商品内容**
 
 Zonkey本体(組み立て済み)\
 xiao ble\
