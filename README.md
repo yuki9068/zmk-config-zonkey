@@ -66,6 +66,8 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
 
 
 **2-3.対応ロープロファイルスイッチ一覧**\
+![Image](https://github.com/user-attachments/assets/03dbc5da-85f1-4aac-bc44-5c0c68d64fdc)
+
 ・Phantom Low-profile POM Switches\
 ・Ghost Low-profile POM Switches\
 ・Wizard Low-profile POM Switches\
@@ -87,6 +89,9 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
 
  ・Kailh ロープロファイル Choc スイッチ　各種（コンセント型）\
 　上記の他にも対応しているスイッチはある可能性があります、ソケットの形状から使用できるスイッチかどうかを判断してください。
+
+ ![Image](https://github.com/user-attachments/assets/464428ef-828a-4770-b0cc-90586c19c4cb)
+ ![Image](https://github.com/user-attachments/assets/8688c4ff-4236-4a42-a4be-1c67b1a00004)
 
 
 **5. 動作確認**\
