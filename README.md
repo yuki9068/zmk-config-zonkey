@@ -31,6 +31,7 @@ ZMKfirmware採用\
 LEDによるバッテリー残量、BLE接続状態の簡易表示\
 バッテリー容量：左手側300mAh  右手側500mAh\
 
+![Image](https://github.com/user-attachments/assets/5f487546-771b-44a3-b13c-cabdf2f41b11)
 
 **２. 商品詳細**
 
