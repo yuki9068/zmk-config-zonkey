@@ -35,7 +35,7 @@ Zonkeyは分割キーボードを初めて使用する方にも扱いやすい\
  \
  \
  \
-## 1. 仕様 
+# 1. 仕様 
 
 ![Image](https://github.com/user-attachments/assets/5f487546-771b-44a3-b13c-cabdf2f41b11)
 
@@ -53,7 +53,7 @@ LEDによるバッテリー残量、BLE接続状態の簡易表示\
  \
  \
  \
-## 2. 商品内容
+# 2. 商品内容
 
 Zonkey本体(組み立て済み)\
 xiao ble\
@@ -74,8 +74,10 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
  \
  \
  \
-## 3. その他に購入が必要なもの
+# 3. その他に購入が必要なもの
  \
+・USBケーブル（PCーzonkey間を接続できるもの）\
+\
 34mmトラックボール使用の場合 \
 ・トラックボール（34mm) \
  \
@@ -86,7 +88,7 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
  \
  \
  \
-## 4.対応ロープロファイルスイッチ一覧
+# 4.対応ロープロファイルスイッチ一覧
 ![Image](https://github.com/user-attachments/assets/03dbc5da-85f1-4aac-bc44-5c0c68d64fdc)
 
 ・Phantom Low-profile POM Switches\
@@ -115,7 +117,10 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
  ![Image](https://github.com/user-attachments/assets/8688c4ff-4236-4a42-a4be-1c67b1a00004)
 
 
-## 5. 使用方法について
+# 5. 使用方法について
+それぞれの最新ファームウェアはこちら\
+>[Zonkeyファームウェア](https://github.com/kureyakey/zmk-config-zonkey.git)\
+\
  (1).ファームウェアの書き込み\
  　Zonkeyと\
 \
