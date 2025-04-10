@@ -7,7 +7,7 @@ Zonkeyは分割キーボードを初めて使用する方にも扱いやすい\
 \
 \
 左右でバッテリーの消耗が異なるため、左手側に300mAh,右手側に500mAhを搭載しています。\
-１日８時間使用で１カ月使用できることを目安としています。
+１日８時間使用で１カ月使用できることを目安としています。\
 
 
 ![Image](https://github.com/user-attachments/assets/8a479e45-fbee-44db-97cd-d00713b36cb2)
@@ -115,11 +115,11 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
 ・Kailh Choc V2 Low Profile Silent Tactile Switch Deep Sea Silent Mini Low-Profile Switches\
 ・Kailh Choc V2 Linear Switch Deep Sea 35GF Pink Island Silent Mini Low-Profile Switches\
 ・Kailh Choc V2 transparent Low Profile Clicky Jellyfish RGB Crystal Switches\
-などのKailh Choc V2でも２ピンタイプの物が使用できます。（３ピンタイプの物は使用できないことだけ注意してください。）\
+などのKailh Choc V2でも２ピンタイプの物が使用できます。（３ピンタイプの物は使用できないことだけ注意してください。）
 
 ・Gateron KS-33 ロープロファイル 2.0 メカニカルスイッチ（ホワイトボトムハウジング）\
 ・Gateron KS-33 ロープロファイル 2.0 メカニカルスイッチ（ブラックボトムハウジング）\
-・Gateron KS-33 ロープロファイル 2.0 バナナスイッチ
+・Gateron KS-33 ロープロファイル 2.0 バナナスイッチ\
 ・Gateron KS-33 ロープロファイル 2.0 チョコレートスイッチ\
 ・Gateron KS-33 ロープロファイル レッド サイレント 2.0 メカニカルスイッチセット\
 ※gateron　ロープロファイルスイッチであれば対応しています。\
