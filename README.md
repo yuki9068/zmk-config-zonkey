@@ -39,7 +39,7 @@ Zonkeyは分割キーボードを初めて使用する方にも扱いやすい\
  \
  \
  \
-# 仕様
+１．# 仕様
 
 ![Image](https://github.com/user-attachments/assets/5f487546-771b-44a3-b13c-cabdf2f41b11)
 
