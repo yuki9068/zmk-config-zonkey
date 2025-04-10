@@ -89,7 +89,7 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
  \
  \
  \
-# 3. その他に購入が必要なもの
+# その他に購入が必要なもの
  \
 ・USBケーブル（PCーzonkey間を接続できるもの）\
 \
@@ -103,7 +103,7 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
  \
  \
  \
-# 4.対応ロープロファイルスイッチ一覧
+# 対応ロープロファイルスイッチ一覧
 ![Image](https://github.com/user-attachments/assets/03dbc5da-85f1-4aac-bc44-5c0c68d64fdc)
 
 ・Phantom Low-profile POM Switches\
@@ -132,7 +132,7 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
  ![Image](https://github.com/user-attachments/assets/8688c4ff-4236-4a42-a4be-1c67b1a00004)
 
 
-# 5. 使用方法について
+# 使用方法
 それぞれの最新ファームウェアはこちら\
 >[Zonkeyファームウェア](https://github.com/kureyakey/zmk-config-zonkey.git)\
 \
@@ -149,8 +149,8 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
 \
 (6)ファームウェアの書き込み方\
 \
-## 6.注意事項
+# 注意事項
 \
-## 7.トラブルシューティング
+# トラブルシューティング
 \
-## 8.最後に
+# 最後に
