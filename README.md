@@ -253,11 +253,17 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能<br
 # ファームウェアの書き込み
 <br>
 <br>
+
 >ダウンロードしたファームウェアをZonkeyに書き込む作業です。<br>
 メインで使用するPCからファームウェアをダウンロードするようにしてください。<br>
 <br>
 <br>
+(1)PCとZonkeyの左手側をUSBケーブルで接続して下さい。<br>
 <br>
+<br>
+
+![Image](https://github.com/user-attachments/assets/395be03e-aeb5-47ff-b0d2-2605baa56e13)<br>
+
 
 # 注意事項
 <br>
