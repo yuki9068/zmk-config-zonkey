@@ -263,9 +263,27 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能<br
 <br>
 
 ![Image](https://github.com/user-attachments/assets/395be03e-aeb5-47ff-b0d2-2605baa56e13)<br>
+<br>
+<br>
+(2)USB接続後にリセットボタンを２回連続で押すと、「XIAO-SENCE」とキーボード内のマイコンが表示されます<br>
+<br>
+<br>
+
+<img width="786" alt="Image" src="https://github.com/user-attachments/assets/71b2cb33-4dc9-4ba5-a52f-376d3ff977ba" />
+<br>
+<br>
+<br>
+<br>
+(3)表示された「XIAOーSENSE」へダウンロードした「「setting_reset-seeduino_xiao_ble-zmk」をドラッグアンドドロップ
+<br>
+<br>
+<br>
+
+
 
 
 # 注意事項
+
 <br>
 キーボードに内蔵されているLi－Poバッテリーの取り扱いについて
 <br>
