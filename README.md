@@ -127,6 +127,7 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
 ・Kailh Choc V2 Linear Switch Deep Sea 35GF Pink Island Silent Mini Low-Profile Switches\
 <br>
 ・Kailh Choc V2 transparent Low Profile Clicky Jellyfish RGB Crystal Switches\
+<br>
 などのKailh Choc V2でも２ピンタイプの物が使用できます。（３ピンタイプの物は使用できないことだけ注意してください。）
 <br>
 ・Gateron KS-33 ロープロファイル 2.0 メカニカルスイッチ（ホワイトボトムハウジング）\
