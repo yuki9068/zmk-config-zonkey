@@ -35,6 +35,8 @@ Zonkeyは分割キーボードを初めて使用する方にも扱いやすい<b
 - [対応ロープロファイルスイッチ一覧](#対応ロープロファイルスイッチ一覧)
 - [ファームウェアのダウンロード](#ファームウェアのダウンロード)
 - [ファームウェアの書き込み](#ファームウェアの書き込み)
+- [PCとの接続方法](#PCとの接続方法)
+- [最後に](#最後に)
 - [故障かなと思ったら](#故障かなと思ったら)
 - [最後に](#最後に)
 <br>
@@ -255,6 +257,12 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能<br
 
 ![Image](https://github.com/user-attachments/assets/df63e8d0-bb8f-4b03-b2e5-f920dc2563d4)
 
+<br>
+<br>
+<br>
+<br>
+<br>
+
 # ファームウェアの書き込み
 <br>
 <br>
@@ -298,6 +306,36 @@ MACにて作業を行うと、上にあるような書き込みエラーがそ�
 <br>
 <br>
 <br>
+
+# PCとの接続方法
+
+(1) PCのBluetooth設定画面を開きます。<br>
+<br>
+<br>
+<br>
+(2) Zonkeyのスイッチを左手側からスイッチを「ON」にします。<br>
+<br>
+<br>
+<br>
+(3)リセットボタンを１回押すとデバイスに「zonkey」が表示されますので「接続」を押すとペアリングできます。<br>
+<br>
+<br>
+<br>
+
+<img width="740" alt="Image" src="https://github.com/user-attachments/assets/78ddcbf4-af91-4cd7-9bd8-5f44ff3a9f7e" />
+<br>
+<br>
+<br>
+(4)一度、ペアリングを設定したデバイスは２回目からは自動的にペアリングできますので、リセットボタンを押す必要はありません。<br>
+<br>
+<br>
+<br>
+
+<img width="737" alt="Image" src="https://github.com/user-attachments/assets/874be3ec-836b-4147-b7d3-df2df381c892" />
+<br>
+<br>
+<br>
+電池残量についてもBluetooth接続設定画面で確認することができます。
 
 # 注意事項
 
