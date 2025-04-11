@@ -11,6 +11,7 @@ Zonkeyは分割キーボードを初めて使用する方にも扱いやすい<b
 １日８時間使用で１カ月使用できることを目安としています。<br>
 <br>
 <br>
+
 ![Image](https://github.com/user-attachments/assets/8a479e45-fbee-44db-97cd-d00713b36cb2)
 <br>
 <br>
