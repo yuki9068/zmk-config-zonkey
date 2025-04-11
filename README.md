@@ -341,14 +341,11 @@ MACにて作業を行うと、上にあるような書き込みエラーがそ�
 <br>
 
 # キーマップ編集
-<br>
-<br>
-<br>
+
 >ファームウェアを書き込んだ時点でデフォルトのキーマップが反映されています。<br>
 　KeymapEditorを使用することで、キーマップをカスタマイズ出来ます。<br>
 <br>
-<br>
-<br>
+
 (1)[KeymapEditor](https://nickcoutsos.github.io/keymap-editor/)<br>
  
 
