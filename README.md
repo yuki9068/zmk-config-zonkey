@@ -79,11 +79,13 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
 ロープロファイルエンコーダ(EVQWGD001 )\
 底面マグネット仕様\
 各種ねじ、スペーサー
-\
-\
-\
-\
-\
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 # その他に購入が必要なもの
 \
 ・USBケーブル（PCーzonkey間を接続できるもの）\
@@ -95,38 +97,65 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
 ・トラックボール（25mm) \
  \
 ・対応している各種ロープロファイルスイッチ42個 
- \
- \
- \
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # 対応ロープロファイルスイッチ一覧
 ![Image](https://github.com/user-attachments/assets/03dbc5da-85f1-4aac-bc44-5c0c68d64fdc)
-
+<br>
+<br>
+<br>
+<br>
 ・Phantom Low-profile POM Switches\
+<br>
 ・Ghost Low-profile POM Switches\
+<br>
 ・Wizard Low-profile POM Switches\
+<br>
 ・Specter Low-profile POM Switches\
+<br>
 ・Hades Low-profile POM Switches\
+<br>
 ・Kailh Choc V2 Low Profile Silent Linear Switch Deep Sea Silent Mini Low-Profile Switches\
+<br>
 ・Kailh Choc V2 Low Profile Silent Tactile Switch Deep Sea Silent Mini Low-Profile Switches\
+<br>
 ・Kailh Choc V2 Linear Switch Deep Sea 35GF Pink Island Silent Mini Low-Profile Switches\
+<br>
 ・Kailh Choc V2 transparent Low Profile Clicky Jellyfish RGB Crystal Switches\
 などのKailh Choc V2でも２ピンタイプの物が使用できます。（３ピンタイプの物は使用できないことだけ注意してください。）
-
+<br>
 ・Gateron KS-33 ロープロファイル 2.0 メカニカルスイッチ（ホワイトボトムハウジング）\
+<br>
 ・Gateron KS-33 ロープロファイル 2.0 メカニカルスイッチ（ブラックボトムハウジング）\
+<br>
 ・Gateron KS-33 ロープロファイル 2.0 バナナスイッチ\
+<br>
 ・Gateron KS-33 ロープロファイル 2.0 チョコレートスイッチ\
-・Gateron KS-33 ロープロファイル レッド サイレント 2.0 メカニカルスイッチセット\
+<br>
+・Gateron KS-33 ロープロファイル レッド サイレント 2.0 メカニカルスイッチ\
+<br>
 ※gateron　ロープロファイルスイッチであれば対応しています。\
 　MX　Cherry互換のスイッチやマグネティックスイッチについては対応していませんのでご注意ください。\
-
+<br>
  ・Kailh ロープロファイル Choc スイッチ　各種（コンセント型）\
+ <br>
 　上記の他にも対応しているスイッチはある可能性があります、ソケットの形状から使用できるスイッチかどうかを判断してください。
-
+<br>
+<br>
+<br>
  ![Image](https://github.com/user-attachments/assets/464428ef-828a-4770-b0cc-90586c19c4cb)
  ![Image](https://github.com/user-attachments/assets/8688c4ff-4236-4a42-a4be-1c67b1a00004)
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # 使用方法
 ファームウェアはこちら
@@ -144,13 +173,28 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能\
 (5)キーマップの編集\
 \
 (6)ファームウェアの書き込み方\
-\
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # 注意事項
 \
 キーボードに内蔵されているLi－Poバッテリーの取り扱いについて
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 # 故障かなと思ったら
-\
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # 最後に
