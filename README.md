@@ -346,7 +346,8 @@ MACにて作業を行うと、上にあるような書き込みエラーがそ�
 　KeymapEditorを使用することで、キーマップをカスタマイズ出来ます。<br>
 <br>
 
-(1)[KeymapEditor](https://nickcoutsos.github.io/keymap-editor/)<br>
+(1)[KeymapEditor](https://nickcoutsos.github.io/keymap-editor/)へアクセスします。<br>
+(2)
  
 
 
