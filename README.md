@@ -166,10 +166,24 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能<br
 ファームウェアはこちら
 >[Zonkeyファームウェア](https://github.com/kureyakey/zmk-config-zonkey.git)<br>
 <br>
- (1).ファームウェアの書き込み<br>
- 　Zonkeyと\
+ (1)ファームウェアをダウンロードするためGithubアカウントを作成する。<br>
+ ファームウェアのダウンロードにはGithubアカウントが必要です。<br>
+ アカウントを持っていない場合は「Github」を検索し、以下のページからアカウントを作ってください。<br>
+ <br>
 <br>
-(2)PCとの接続方法<br>
+
+![Image](https://github.com/user-attachments/assets/0e543f75-9da1-40cf-a648-33d741c6b908)
+<br>
+<br>
+<br>
+<br>
+必要な情報を入力し、アカウント登録をすすめて下さい。<br>
+
+![Image](https://github.com/user-attachments/assets/2650848b-c591-4fdd-8798-8093ea3c0d9e)
+<br>
+(2)アカウントへログインし、上記ファームウェアリンクをクリックしてください。<br>
+
+![Image](https://github.com/user-attachments/assets/c38a90e0-b080-419f-b348-7071e269e80c)
 <br>
 (3)LED簡易表示について<br>
 <br>
