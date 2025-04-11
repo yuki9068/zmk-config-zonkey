@@ -177,15 +177,31 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能<br
 <br>
 <br>
 <br>
-必要な情報を入力し、アカウント登録をすすめて下さい。<br>
+必要な情報を入力し、アカウント登録<br>
 
 ![Image](https://github.com/user-attachments/assets/2650848b-c591-4fdd-8798-8093ea3c0d9e)
 <br>
-(2)アカウントへログインし、上記ファームウェアリンクをクリックしてください。<br>
+(2)アカウントへログインし、上記ファームウェアリンクをクリック<br>
 
 ![Image](https://github.com/user-attachments/assets/c38a90e0-b080-419f-b348-7071e269e80c)
 <br>
-(3)LED簡易表示について<br>
+<br>
+<br>
+(3)ファームウェアをフォークする（※コピーすることをフォークと言います）<br>
+　※リポジトリとはここでの「zmk-config-zonkey」のことをさしています。<br>
+<br>
+<br>
+<br>
+![Image](https://github.com/user-attachments/assets/0f7c2c4d-55b3-443f-93fb-2fdec00d722b)
+<br>
+
+![Image](https://github.com/user-attachments/assets/e7001a61-23d4-4f59-9ea3-8c701016b6be)
+
+(4)クローンしたリポジトリの上部からアクションを選択<br>
+<br>
+<br>
+![Image](https://github.com/user-attachments/assets/733ea4d0-0bc4-43ab-a0de-0165236714fc)
+<br>
 <br>
 (4)ファームウェアについて<br>
 <br>
@@ -208,6 +224,7 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能<br
 <br>
 <br>
 <br>
+
 # 故障かなと思ったら
 <br>
 <br>
