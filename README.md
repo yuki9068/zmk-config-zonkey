@@ -322,7 +322,7 @@ MACにて作業を行うと、上にあるような書き込みエラーがそ�
 <br>
 <br>
 
-<img width="740" alt="Image" src="https://github.com/user-attachments/assets/78ddcbf4-af91-4cd7-9bd8-5f44ff3a9f7e" />
+<img width="740" alt="Image" src="https://github.com/user-attachments/assets/d4ba6e77-81bd-45f4-ad82-110f814dcfe8" />
 <br>
 <br>
 <br>
@@ -331,7 +331,7 @@ MACにて作業を行うと、上にあるような書き込みエラーがそ�
 <br>
 <br>
 
-<img width="737" alt="Image" src="https://github.com/user-attachments/assets/874be3ec-836b-4147-b7d3-df2df381c892" />
+<img width="737" alt="Image" src="https://github.com/user-attachments/assets/879ca67b-f8cf-45bf-9a6e-eba971defe10" />
 <br>
 <br>
 <br>
