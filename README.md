@@ -274,13 +274,25 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能<br
 <br>
 <br>
 <br>
-(3)表示された「XIAOーSENSE」へダウンロードした「「setting_reset-seeduino_xiao_ble-zmk」をドラッグアンドドロップ
+(3)　１．表示された「XIAOーSENSE」へダウンロードした「setting_reset-seeduino_xiao_ble-zmk」をドラッグアンドドロップ<br>
+　　 ２．「XIAO-SENSE」は「setting_reset-seeduino_xiao_ble-zmk」を書き込むと消えます。<br>
+   　　　もう一度リセットボタンを２回連続で押して「XIAO-SENSE」を再表示させ、「zonkey_L rgbled~」をドラッグアンドドロップ<br>
 <br>
 <br>
 <br>
 
-
-
+<img width="515" alt="Image" src="https://github.com/user-attachments/assets/f64b86c4-1b41-47f1-882a-0917fdbb8ac3" />
+<br>
+<br>
+<br>
+MACにて作業を行うと、上にあるような書き込みエラーがその都度表示されますが、書き込みは行われています。<br>
+<br>
+<br>
+以上で左手側のファームの書き込みは完了です。<br>
+同様に右手側も「setting_reset-seeduino_xiao_ble-zmk」を書き込み、「zonkey_R rgbled~」を書き込んでファーム書き込み作業は完了です。<br>
+<br>
+<br>
+<br>
 
 # 注意事項
 
