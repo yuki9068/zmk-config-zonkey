@@ -203,7 +203,9 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能<br
 ![Image](https://github.com/user-attachments/assets/733ea4d0-0bc4-43ab-a0de-0165236714fc)
 <br>
 <br>
-(4)ファームウェアについて<br>
+(5)ファームウェアについて<br>
+
+
 <br>
 (5)キーマップの編集<br>
 <br>
