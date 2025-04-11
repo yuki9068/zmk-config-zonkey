@@ -181,7 +181,7 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能<br
 
 ![Image](https://github.com/user-attachments/assets/2650848b-c591-4fdd-8798-8093ea3c0d9e)
 <br>
-(2)アカウントへログインし、上記ファームウェアリンクをクリック<br>
+(2)アカウントへログインし、ファームウェアリンクをクリック<br>
 
 ![Image](https://github.com/user-attachments/assets/c38a90e0-b080-419f-b348-7071e269e80c)
 <br>
@@ -203,20 +203,52 @@ Lipoバッテリー(28×38×厚さ6mm)までのバッテリーを収納可能<br
 ![Image](https://github.com/user-attachments/assets/733ea4d0-0bc4-43ab-a0de-0165236714fc)
 <br>
 <br>
-(5)ファームウェアについて<br>
-
-
-<br>
-(5)キーマップの編集<br>
-<br>
-(6)ファームウェアの書き込み方<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
 
+![Image](https://github.com/user-attachments/assets/e0aed0af-7bcb-42f4-8a98-1767e3dd94fe)
+<br>
+<br>
+<br>
+<br>
+(5)「ワークフローを実行する」でZonkeyのファームウェアをビルドする<br>
+<br>
+<br>
+
+![Image](https://github.com/user-attachments/assets/977977c5-7c8e-4e8e-abdd-37e7953e30ee)
+<br>
+<br>
+<br>
+(6)すぐにビルドが実行されます<br>
+<br>
+<br>
+
+![Image](https://github.com/user-attachments/assets/0803d74b-d0c8-4a0e-9201-b87a53883d4a)
+<br>
+<br>
+<br>
+(7).github/workflows/build.ymlをクリックして画面を切り替える
+<br>
+<br>
+
+![Image](https://github.com/user-attachments/assets/1a295c21-66f1-4a14-b99d-7db7900aecef)
+<br>
+<br>
+(8)任意の場所を指定してファームウェア圧縮ファイルをダウンロード<br>
+<br>
+<br>
+<br>
+
+![Image](https://github.com/user-attachments/assets/049cedf6-08e1-4d3b-9793-899c00ed1b2b)
+<br>
+<br>
+<br>
+(9)ダウンロード先のファームウェアを解凍し、次の３つのファイルがダウンロードできていれば成功です。<br>
+　　PCからZonkey内のXiao BLE nRF52840へファームウェアを書き込むステップに移行します。<br>
+<br>
+<br>
+<br>
 # 注意事項
 <br>
 キーボードに内蔵されているLi－Poバッテリーの取り扱いについて
