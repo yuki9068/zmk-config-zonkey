@@ -155,7 +155,7 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE         &trans         &trans        &trans          &trans                                                               &trans         &trans        &moMINUS      &moCARET     &moINT3
+&kp LANG5         &trans         &trans        &trans          &trans                                                               &trans         &trans        &moMINUS      &moCARET     &moINT3
 &toJIS 1 TAB      &trans         &trans        &trans          &trans          &trans                                &trans         &trans         &trans         &trans       &moAT        &moLBKT
 &kp CAPS          &trans         &trans       &trans          &trans          &trans                                &trans         &trans         &trans         &moSEMI      &moCOLON       &moRBKT
 &mt LCTL ESC      &trans         &trans        &lt 5 INT_HENKAN    &lt 4 SPACE   &lt 1 INT_MUHENKAN                  &trans         &trans                                                    &moBSLH
