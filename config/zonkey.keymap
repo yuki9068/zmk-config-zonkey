@@ -85,10 +85,10 @@
             bindings = <&kp CARET>, <&kp TILDE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        moINT_YEN: moINT_YEN {
+        moKC_JYEN: moKC_JYEN {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp INT_YEN>, <&kp PIPE>;
+            bindings = <&kp KC_JYEN>, <&kp PIPE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moAT: moAT {
