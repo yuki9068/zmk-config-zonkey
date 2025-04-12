@@ -85,7 +85,7 @@
             bindings = <&kp CARET>, <&kp TILDE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-         moINT3: moKC_JYEN {
+         moINT3:moINT3 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp "¥">, <&kp PIPE>;
