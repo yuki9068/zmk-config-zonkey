@@ -46,79 +46,85 @@
         mo2: mo2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N2>, <&kp LBKT>;
+            bindings = <&kp N2>, <&kp DQT>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo6: mo6 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N6>, <&kp EQUAL>;
+            bindings = <&kp N6>, <&kp AMPS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo7: mo7 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N7>, <&kp LS(N6)>;
+            bindings = <&kp N7>, <&kp APOS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo8: mo8 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N8>, <&kp LS(SQT)>;
+            bindings = <&kp N8>, <&kp LPAR>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo9: mo9 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N9>, <&kp LS(N8)>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        mo0: mo0 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N0>, <&kp LS(N9)>;
+            bindings = <&kp N9>, <&kp RPAR>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moMINUS: moMINUS {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp LS(INT_RO)>;
+            bindings = <&kp MINUS>, <&kp EQUAL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        moEQUAL: moEQUAL {
+        moCARET: moCARET {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp LS(MINUS)>, <&kp COLON>;
+            bindings = <&kp CARET>, <&kp TILDE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        moINT_YEN: moINT_YEN {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp INT_YEN>, <&kp PIPE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        moAT: moAT {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp AT>, <&kp GRAVE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moLBKT: moLBKT {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp RBKT>, <&kp LS(RBRC)>;
+            bindings = <&kp LBKT>, <&kp LS(LBRC)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moRBKT: moRBKT {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp BSLH>, <&kp LS(BSLH)>;
+            bindings = <&kp RBKT>, <&kp LS(RBRC)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moSEMI: moSEMI {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp SEMI>, <&kp SQT>;
+            bindings = <&kp SEMI>, <&kp PLUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        moSQT: moSQT {
+        moCOLON: moCOLON {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp LS(N7)>, <&kp LS(N2)>;
+            bindings = <&kp COLON>, <&kp ASTRK>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        moGRAVE: moGRAVE {
+        moBSLH: moBSLH {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp LS(LBRC)>, <&kp LS(EQUAL)>;
+            bindings = <&kp BSLH>, <&kp UNDER>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         scroll_down_up: behavior_sensor_rotate_mouse_wheel_down_up {
@@ -129,6 +135,7 @@
             tap-ms = <20>;
         };
     };
+
 
     keymap {
         compatible = "zmk,keymap";
