@@ -127,19 +127,6 @@
             bindings = <&kp BSLH>, <&kp UNDER>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-　　　　　&kp LALT GRAVE {
-    label = "Alt+`";
-};
-
-keymap {
-    compatible = "zmk,keymap";
-
-    default_layer {
-        bindings = <
-            &kp LALT GRAVE
-        >;
-    };
-};
         scroll_down_up: behavior_sensor_rotate_mouse_wheel_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
