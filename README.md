@@ -397,6 +397,31 @@ MACにて作業を行うと、上にあるような書き込みエラーがそ�
 <br>
 <br>
 
+![Image](https://github.com/user-attachments/assets/068840f9-da0c-49e4-bd81-bc4f8b49a930)
+<br>
+<br>
+<br>
+
+![Image](https://github.com/user-attachments/assets/597e2cc5-5753-4973-8c0a-750464778cee)
+<br>
+<br>
+<br>
+
+![Image](https://github.com/user-attachments/assets/fe7e0d1e-2368-4ce7-b592-2b48fd49441c)
+<br>
+<br>
+<br>
+
+![Image](https://github.com/user-attachments/assets/1ebf4270-86fc-4967-bcd1-c81597d9ffe7)
+<br>
+<br>
+<br>
+
+![Image](https://github.com/user-attachments/assets/6441669f-d51a-48dd-8424-f9e1f219ded9)
+<br>
+<br>
+<br>
+
 
 # 注意事項
 
