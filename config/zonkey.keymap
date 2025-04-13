@@ -43,90 +43,119 @@
             quick-tap-ms = <0>;
             bindings = <&tog>, <&kp>;
         };
+
         mo2: mo2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N2>, <&kp DQT>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         mo6: mo6 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N6>, <&kp AMPS>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         mo7: mo7 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N7>, <&kp APOS>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         mo8: mo8 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N8>, <&kp LPAR>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         mo9: mo9 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N9>, <&kp RPAR>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         moMINUS: moMINUS {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp EQUAL>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         moCARET: moCARET {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp CARET>, <&kp TILDE>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-         moINT3: moINT3 {
+
+        moINT3: moINT3 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp INT3>, <&kp PIPE>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         moAT: moAT {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp AT>, <&kp GRAVE>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         moLBKT: moLBKT {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp LBKT>, <&kp LS(LBRC)>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         moRBKT: moRBKT {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp RBKT>, <&kp LS(RBRC)>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         moSEMI: moSEMI {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp SEMI>, <&kp PLUS>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         moCOLON: moCOLON {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp COLON>, <&kp ASTRK>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         moBSLH: moBSLH {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp BSLH>, <&kp UNDER>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         scroll_down_up: behavior_sensor_rotate_mouse_wheel_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
@@ -136,16 +165,15 @@
         };
     };
 
-
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R             &kp T                                             &kp Y          &kp U        &kp I      &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F             &kp G        &kp LS(LG(S))         &kp MINUS      &kp H          &kp J        &kp K      &kp L    &kp SQT
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C             &kp V        &kp B                 &kp SEMICOLON  &kp N          &kp M        &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                   &kp BACKSPACE  &kp ENTER                        &kp DEL
+&kp Q           &kp W         &kp E         &kp R             &kp T                                             &kp Y          &kp U      &kp I      &kp O    &kp P
+&kp A           &kp S         &kp D         &kp F             &kp G        &kp LS(LG(S))         &kp MINUS      &kp H          &kp J      &kp K      &kp L    &kp SQT
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C             &kp V        &kp B                 &kp SEMICOLON  &kp N          &kp M      &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                   &kp BACKSPACE  &kp ENTER                                 &kp DEL
             >;
 
             sensor-bindings =
@@ -155,10 +183,10 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE         &trans         &trans        &trans          &trans                                                               &trans         &trans        &moMINUS      &moCARET     &moINT3
-&toJIS 1 TAB      &trans         &trans        &trans          &trans          &trans                                &trans         &trans         &trans         &trans       &moAT        &moLBKT
-&kp CAPS          &trans         &trans       &trans          &trans          &trans                                &trans         &trans         &trans         &moSEMI      &moCOLON       &moRBKT
-&mt LCTL ESC      &trans         &trans        &lt 5 INT_HENKAN    &lt 4 SPACE   &lt 1 INT_MUHENKAN                  &trans         &trans                                                    &moBSLH
+&kp INT_KANA  &trans  &trans  &trans            &trans                                     &trans  &trans  &moMINUS  &moCARET  &moINT3
+&toJIS 1 TAB  &trans  &trans  &trans            &trans       &trans                &trans  &trans  &trans  &trans    &moAT     &moLBKT
+&kp CAPS      &trans  &trans  &trans            &trans       &trans                &trans  &trans  &trans  &moSEMI   &moCOLON  &moRBKT
+&mt LCTL ESC  &trans  &trans  &lt 5 INT_HENKAN  &lt 4 SPACE  &lt 1 INT_MUHENKAN            &trans  &trans                               &moBSLH
             >;
 
             sensor-bindings = <&scroll_down_up>;
@@ -166,10 +194,10 @@
 
         layer_2 {
             bindings = <
-&kp N1         &mo2           &kp N3        &kp N4          &kp N5                                                         &mo6           &mo7          &mo8            &mo9            &kp N0
-&trans         &trans         &trans        &trans          &trans          &trans                          &trans         &trans         &trans        &trans          &trans          &trans
-&trans         &trans         &trans        &trans          &trans          &trans                          &trans         &trans         &trans        &trans          &trans          &trans
-&trans         &trans         &trans        &lt 6 INT_HENKAN    &lt 2 SPACE   &lt 4 INT_MUHENKAN             &trans        &trans                                                       &trans
+&kp N1  &mo2    &kp N3  &kp N4            &kp N5                                     &mo6    &mo7    &mo8    &mo9    &kp N0
+&trans  &trans  &trans  &trans            &trans       &trans                &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans            &trans       &trans                &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &lt 6 INT_HENKAN  &lt 2 SPACE  &lt 4 INT_MUHENKAN            &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_down_up>;
@@ -177,10 +205,10 @@
 
         layer_3 {
             bindings = <
-&kp F1     &kp F2    &kp F3    &kp F4     &kp F5                                                         &kp F6   &kp F7  &kp F8  &kp F9  &kp F10
-&kp F11    &kp F12   &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp END  &trans                               &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans   &kp LG(LS(RIGHT_ARROW))  &trans   &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans  &trans  &lt 3 INT_HENKAN  &lt 6 SPACE   &lt 5 INT_MUHENKAN                          &trans  &trans                          &trans
+&kp F1          &kp F2                  &kp F3          &kp F4                   &kp F5                                     &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp F11         &kp F12                 &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END      &trans                &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans       &trans                &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                  &trans          &lt 3 INT_HENKAN         &lt 6 SPACE  &lt 5 INT_MUHENKAN            &trans  &trans                           &trans
             >;
 
             sensor-bindings = <&scroll_down_up>;
@@ -199,10 +227,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                   &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans  &trans    &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans                                                                       &trans
+&trans  &trans  &trans  &trans  &trans                                        &kp MINUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
+&trans  &trans  &trans  &trans  &trans  &trans    &trans                      &kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK
+&trans  &trans  &trans  &trans  &trans  &trans    &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD       &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans                                &trans           &trans                                                           &trans
             >;
 
             sensor-bindings = <&scroll_down_up>;
