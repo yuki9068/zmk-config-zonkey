@@ -185,7 +185,7 @@
             bindings = <
 &kp ESC 　　  &trans　　　  &trans  &trans            &trans                                     &trans  &trans  &moMINUS  &moCARET  &moINT3
 &kp TAB       &trans       &trans  &trans            &trans       &trans                &trans  &trans  &trans  &trans    &moAT     &moLBKT
-&trans　      &CAPS        &trans  &trans            &trans       &trans                &trans  &trans  &trans  &moSEMI   &moCOLON  &moRBKT
+&trans　      &kp CAPS     &trans  &trans            &trans       &trans                &trans  &trans  &trans  &moSEMI   &moCOLON  &moRBKT
 &trans        &trans       &trans  &lt 5 INT_HENKAN  &lt 4 SPACE  &lt 1 INT_MUHENKAN            &trans  &trans                      &moBSLH
             >;
 
