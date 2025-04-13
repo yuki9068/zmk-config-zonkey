@@ -177,10 +177,10 @@
 
         layer_3 {
             bindings = <
-&kp F1     &kp F2    &kp F3    &kp F4     &kp F5                                                         &kp F6   &kp F7  &kp F8  &kp F9  &kp F10
-&kp F11    &kp F12   &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp END  &trans                               &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans   &kp LG(LS(RIGHT_ARROW))  &trans   &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans  &trans  &lt 3 INT_HENKAN  &lt 6 SPACE   &lt 5 INT_MUHENKAN                          &trans  &trans                          &trans
+&kp F1     &kp F2    &kp F3    &kp F4     &kp F5                                                      &kp F6   &kp F7  &kp F8  &kp F9  &kp F10
+&kp F11    &kp F12   &trans  &trans  &trans                                                      &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans  &trans  &lt 3 INT_HENKAN  &lt 6 SPACE   &lt 5 INT_MUHENKAN                      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_down_up>;
