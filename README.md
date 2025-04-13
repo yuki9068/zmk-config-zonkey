@@ -387,6 +387,15 @@ MACにて作業を行うと、上にあるような書き込みエラーがそ�
 <br>
 <br>
 
+![Image](https://github.com/user-attachments/assets/8382f0a0-4540-458e-af59-6f088680eef2)
+<br>
+<br>
+<br>
+
+![Image](https://github.com/user-attachments/assets/e3750acd-fe0f-4964-a614-66954446436c)
+<br>
+<br>
+<br>
 
 
 # 注意事項
