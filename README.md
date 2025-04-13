@@ -347,10 +347,23 @@ MACにて作業を行うと、上にあるような書き込みエラーがそ�
 <br>
 
 (1)[KeymapEditor](https://nickcoutsos.github.io/keymap-editor/)へアクセスします。<br>
-(2)
- 
+(2)『Github』を選択<br>
+(3)『login with GitHub』よりログイン<br>
+(4)画像のような画面に移行するので、『全てのリポジトリ』を選択せず、『リポジトリのみ』にチェックしてください。<br>
+ <br>
+ <br>
+![Image](https://github.com/user-attachments/assets/2f7b3002-9eae-4cd6-834e-7119c087d344)
+<br>
+<br>
+<br>
+<br>
+(5)「選択したリポジトリのみ」を選択し「リポジトリを選択」から「zmk-config-zonkey」を選択して「インストール」を押してください。<br>
+<br>
+<br>
+<br>
+<br>
 
-
+![Image](https://github.com/user-attachments/assets/53c4d626-f28c-4b79-bb0a-7be1d4b60bd9)
 
 # 注意事項
 
