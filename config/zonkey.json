@@ -1,222 +1,70 @@
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
+{
+  "layouts": {
+    "default_layout": {
+      "name": "default_layout",
+      "layout": [
+        { "row": 1, "col":  0, "x":  0.25, "y": 1 },
+        { "row": 1, "col":  1, "x":  1.25, "y": 1 },
+        { "row": 1, "col":  2, "x":  2.25, "y": 1 },
+        { "row": 1, "col":  3, "x":  3.25, "y": 1 },
+        { "row": 1, "col":  4, "x":  4.25, "y": 1 },
+        { "row": 1, "col":  8, "x":  9.25, "y": 1 },
+        { "row": 1, "col":  9, "x": 10.25, "y": 1 },
+        { "row": 1, "col": 10, "x": 11.25, "y": 1 },
+        { "row": 1, "col": 11, "x": 12.25, "y": 1 },
+        { "row": 1, "col": 12, "x": 13.25, "y": 1 },
 
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
-#define JIS 1
-#define BT 4
-#define MOUSE 6
+        { "row": 2, "col":  0, "x":  0.75, "y": 2 },
+        { "row": 2, "col":  1, "x":  1.75, "y": 2 },
+        { "row": 2, "col":  2, "x":  2.75, "y": 2 },
+        { "row": 2, "col":  3, "x":  3.75, "y": 2 },
+        { "row": 2, "col":  4, "x":  4.75, "y": 2 },
+        { "row": 2, "col":  5, "x":     6, "y": 3.5 },
+        { "row": 2, "col":  7, "x":     8, "y": 3.5 },
+        { "row": 2, "col":  8, "x":  9.75, "y": 2 },
+        { "row": 2, "col":  9, "x": 10.75, "y": 2 },
+        { "row": 2, "col": 10, "x": 11.75, "y": 2 },
+        { "row": 2, "col": 11, "x": 12.75, "y": 2 },
+        { "row": 2, "col": 12, "x": 13.75, "y": 2 },
 
-&mt {
-    flavor = "balanced";
-    quick-tap-ms = <0>;
-};
+        { "row": 3, "col":  0, "x":  0, "y": 3 },
+        { "row": 3, "col":  1, "x":  1, "y": 3 },
+        { "row": 3, "col":  2, "x":  2, "y": 3 },
+        { "row": 3, "col":  3, "x":  3, "y": 3 },
+        { "row": 3, "col":  4, "x":  4, "y": 3 },
+        { "row": 3, "col":  5, "x":  5, "y": 3 },
+        { "row": 3, "col":  7, "x":  9, "y": 3 },
+        { "row": 3, "col":  8, "x": 10, "y": 3 },
+        { "row": 3, "col":  9, "x": 11, "y": 3 },
+        { "row": 3, "col": 10, "x": 12, "y": 3 },
+        { "row": 3, "col": 11, "x": 13, "y": 3 },
+        { "row": 3, "col": 12, "x": 14, "y": 3 },
 
-/ {
-    combos { compatible = "zmk,combos"; };
-
-    macros {
-        to_layer_0: to_layer_0 {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
-            label = "TO_LAYER_0";
-        };
-    };
-
-    behaviors {
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-
-        toJIS: toJIS {
-            compatible = "zmk,behavior-hold-tap";
-            label = "toJIS";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            bindings = <&tog>, <&kp>;
-        };
-        mo2: mo2 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N2>, <&kp DQT>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        mo6: mo6 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N6>, <&kp AMPS>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        mo7: mo7 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N7>, <&kp APOS>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        mo8: mo8 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N8>, <&kp LPAR>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        mo9: mo9 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N9>, <&kp RPAR>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        moMINUS: moMINUS {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp EQUAL>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        moCARET: moCARET {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp CARET>, <&kp TILDE>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-         moINT3: moINT3 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp INT3>, <&kp PIPE>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        moAT: moAT {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp AT>, <&kp GRAVE>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        moLBKT: moLBKT {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp LBKT>, <&kp LS(LBRC)>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        moRBKT: moRBKT {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp RBKT>, <&kp LS(RBRC)>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        moSEMI: moSEMI {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp SEMI>, <&kp PLUS>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        moCOLON: moCOLON {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp COLON>, <&kp ASTRK>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        moBSLH: moBSLH {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp BSLH>, <&kp UNDER>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        scroll_down_up: behavior_sensor_rotate_mouse_wheel_down_up {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
-            tap-ms = <20>;
-        };
-    };
-
-
-    keymap {
-        compatible = "zmk,keymap";
-
-        default_layer {
-            bindings = <
-&kp Q           &kp W         &kp E         &kp R             &kp T                                             &kp Y          &kp U        &kp I      &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F             &kp G        &kp LS(LG(S))         &kp MINUS      &kp H          &kp J        &kp K      &kp L    &kp SQT
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C             &kp V        &kp B                 &kp SEMICOLON  &kp N          &kp M        &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                   &kp BACKSPACE  &kp ENTER                        &kp DEL
-            >;
-
-            sensor-bindings =
-                <&scroll_down_up>,
-                <&inc_dec_kp C_VOL_DN C_VOL_UP>;
-        };
-
-        layer_1 {
-            bindings = <
-&kp GRAVE         &trans         &trans        &trans          &trans                                                               &trans         &trans        &moMINUS      &moCARET     &moINT3
-&toJIS 1 TAB      &trans         &trans        &trans          &trans          &trans                                &trans         &trans         &trans         &trans       &moAT        &moLBKT
-&kp CAPS          &trans         &trans       &trans          &trans          &trans                                &trans         &trans         &trans         &moSEMI      &moCOLON       &moRBKT
-&mt LCTL ESC      &trans         &trans        &lt 5 INT_HENKAN    &lt 4 SPACE   &lt 1 INT_MUHENKAN                  &trans         &trans                                                    &moBSLH
-            >;
-
-            sensor-bindings = <&scroll_down_up>;
-        };
-
-        layer_2 {
-            bindings = <
-&kp N1         &mo2           &kp N3        &kp N4          &kp N5                                                         &mo6           &mo7          &mo8            &mo9            &kp N0
-&trans         &trans         &trans        &trans          &trans          &trans                          &trans         &trans         &trans        &trans          &trans          &trans
-&trans         &trans         &trans        &trans          &trans          &trans                          &trans         &trans         &trans        &trans          &trans          &trans
-&trans         &trans         &trans        &lt 6 INT_HENKAN    &lt 2 SPACE   &lt 4 INT_MUHENKAN             &trans        &trans                                                       &trans
-            >;
-
-            sensor-bindings = <&scroll_down_up>;
-        };
-
-        layer_3 {
-            bindings = <
-&kp F1     &kp F2    &kp F3    &kp F4     &kp F5                                                         &kp F6   &kp F7  &kp F8  &kp F9  &kp F10
-&kp F11    &kp F12   &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp END  &trans                               &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans   &kp LG(LS(RIGHT_ARROW))  &trans   &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans  &trans  &lt 3 INT_HENKAN  &lt 6 SPACE   &lt 5 INT_MUHENKAN                          &trans  &trans                          &trans
-            >;
-
-            sensor-bindings = <&scroll_down_up>;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                         &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4
-&trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans         &trans         &trans         &trans         &bt BT_CLR
-&trans  &trans  &trans  &trans  &trans  &trans                 &trans         &trans                                                      &bt BT_CLR_ALL
-            >;
-
-            sensor-bindings = <&scroll_down_up>;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                   &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans  &trans    &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans                                                                       &trans
-            >;
-
-            sensor-bindings = <&scroll_down_up>;
-        };
-
-        MOUSE {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans                                &trans
-            >;
-
-            sensor-bindings = <&scroll_down_up>;
-        };
-    };
-};
+        { "row": 4, "col":  0, "x":  0, "y": 4 },
+        { "row": 4, "col":  1, "x":  1, "y": 4 },
+        { "row": 4, "col":  2, "x":  2, "y": 4 },
+        { "row": 4, "col":  3, "x":  3.219, "y": 4.275 },
+        { "row": 4, "col":  4, "x":  4.342, "y": 4.367, "r":   9, "rx": 4.842, "ry": 4.117 },
+        { "row": 4, "col":  5, "x":  5.451, "y": 4.659, "r":  20, "rx": 5.951, "ry": 4.409 },
+        { "row": 4, "col":  8, "x":  7.759, "y": 4.96, "r": -20, "rx": 7.559, "ry":  4.41 },
+        { "row": 4, "col":  9, "x":  8.958, "y": 4.566, "r": -10, "rx": 8.658, "ry": 4.116 },
+        { "row": 4, "col": 13, "x": 14, "y": 4 }
+      ]
+    }
+  },
+  "sensors": [
+    {
+      "ref": "left_encoder",
+      "name": "encoder_left",
+      "identifier": "encoder_left",
+      "compatible": "alps,ec11",
+      "enabled": false
+    },
+    {
+      "ref": "right_encoder",
+      "name": "encoder_right",
+      "identifier": "encoder_right",
+      "enabled": false
+    }
+  ]
+}
