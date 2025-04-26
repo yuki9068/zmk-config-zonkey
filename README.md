@@ -405,13 +405,9 @@ MACにて作業を行うと、上にあるような書き込みエラーがそ�
 
 ![Image](https://github.com/user-attachments/assets/ce416c1a-5587-4660-b1e6-46ae6995e75b)
 
-![Image](https://github.com/user-attachments/assets/f62319fd-0f0c-476a-a893-7543ec590a1f)
-
 ![Image](https://github.com/user-attachments/assets/ac41645c-a692-4bfa-bbd6-3910aaff0b22)
 
 ![Image](https://github.com/user-attachments/assets/d729c9a3-fe27-48fe-8bac-534bdb01d9d0)
-
-![Image](https://github.com/user-attachments/assets/6b660f04-3438-4314-9475-9dba4a00391b)
 
 ![Image](https://github.com/user-attachments/assets/6d232f12-ca95-44c5-a60f-bb44a064d15e)
 <br>
