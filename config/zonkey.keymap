@@ -25,16 +25,7 @@
         };
     };
 
-    behaviors {
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-
+  behaviors {
         toJIS: toJIS {
             compatible = "zmk,behavior-hold-tap";
             label = "toJIS";
@@ -44,10 +35,10 @@
             bindings = <&tog>, <&kp>;
         };
         mo2: mo2 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N2>, <&kp SQT>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+   　　　　 compatible = "zmk,behavior-mod-morph";
+   　　　　 #binding-cells = ;
+   　　　　 bindings = <&kp N2>, <&morph_DQT>;
+   　　　　 mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo6: mo6 {
             compatible = "zmk,behavior-mod-morph";
