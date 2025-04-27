@@ -64,7 +64,7 @@
         mo8: mo8 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N8>, <&kp LPAR>;
+            bindings = <&kp N8>, <&kp ASTRK>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo9: mo9 {
@@ -73,7 +73,7 @@
             bindings = <&kp N9>, <&kp LPAR>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        moMINUS: moMINUS {
+        moMINUS: moUNDERSCORE {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp KP_MINUS>, <&kp UNDERSCORE>;
