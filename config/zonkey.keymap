@@ -118,7 +118,7 @@
         moCOLON: moCOLON {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp COLON>, <&kp APOS>;
+            bindings = <&kp APOS>, <&kp LBKT>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moBSLH: moBSLH {
