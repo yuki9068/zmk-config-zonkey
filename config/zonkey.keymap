@@ -94,7 +94,7 @@
         moAT: moAT {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <<&kp LBKT>, <&kp GRAVE>;
+            bindings = <&kp LBKT>, <&kp GRAVE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moLBKT: moLBKT {
