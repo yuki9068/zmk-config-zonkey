@@ -46,7 +46,7 @@
         mo2: mo2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N2>, <&kp LBKT>;
+            bindings = <&kp DQT>, <&kp N2>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo6: mo6 {
