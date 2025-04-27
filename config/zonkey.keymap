@@ -76,13 +76,13 @@
         moMINUS: moMINUS {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp EQUAL>;
+            bindings = <&kp KP_MINUS>, <&kp UNDERSCORE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moCARET: moCARET {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp CARET>, <&kp TILDE>;
+            bindings = <&kp CARET>, <&kp PLUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
          moINT3: moINT3 {
@@ -94,7 +94,7 @@
         moAT: moAT {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp LBKT>, <&kp GRAVE>;
+            bindings = <&kp LBKT>, <&kp AMPS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moLBKT: moLBKT {
@@ -106,19 +106,19 @@
         moRBKT: moRBKT {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp RBKT>, <&kp AMPS>;
+            bindings = <&kp NUHS>, <&kp TILDE2>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moSEMI: moSEMI {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp SEMI>, <&kp PLUS>;
+            bindings = <&kp SEMICOLON>, <&kp KP_PLUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moCOLON: moCOLON {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp APOS>, <&kp LBKT>;
+            bindings = <&kp APOSTROPHE>, <&kp DQT>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moBSLH: moBSLH {
@@ -188,10 +188,10 @@
 
         layer_4 {
             bindings = <
-&kp UNDERSCORE &kp ESCAPE  &kp RETURN2  &kp KP_PLUS &kp KP_MINUS                         &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4
-&kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_EQUAL  &kp KP_EQUAL_AS400  &kp KP_DOT  &trans    &trans       &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4
-&trans  &kp KP_COMMA  &kp KP_LPAR  &kp KP_RPAR  &trans  &trans    &bootloader  &trans         &trans         &trans         &trans         &bt BT_CLR
-&trans  &trans  &trans  &trans  &trans  &trans                 &trans         &trans                                                      &bt BT_CLR_ALL
+&trans  &trans  &trans  &trans  &trans                                       &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4
+&trans  &trans  &trans  &trans  &trans  &trans    &trans       &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4
+&trans  &trans  &trans  &trans  &trans  &trans                                 &bootloader  &trans         &trans         &trans         &trans         &bt BT_CLR
+&trans  &trans  &trans  &trans  &trans  &trans                              &trans         &trans                                                      &bt BT_CLR_ALL
             >;
 
             sensor-bindings = <&scroll_down_up>;
