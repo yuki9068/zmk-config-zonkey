@@ -46,31 +46,31 @@
         mo2: mo2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N2>, <&kp LBKT>;
+            bindings = <&kp N2>, <&kp SQT>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo6: mo6 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N6>, <&kp EQUAL>;
+            bindings = <&kp N6>, <&kp N7>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo7: mo7 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N7>, <&kp LS(N6)>;
+            bindings = <&kp N7>, <&kp SQT>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo8: mo8 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N8>, <&kp LS(SQT)>;
+            bindings = <&kp N8>, <&kp N9>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo9: mo9 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N9>, <&kp LS(N8)>;
+            bindings = <&kp N9>, <&kp N0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo0: mo0 {
