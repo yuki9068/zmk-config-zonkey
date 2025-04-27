@@ -199,9 +199,9 @@
 
         layer_5 {
             bindings = <
-&kp SLASH  &trans  &trans  &trans  &trans                   &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  
+&kp SLASH  &kp LBRC  &kp RBKT &kp RBRC  &kp GRAVE                   &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  
 &kp DQT  &kp COMMA  &kp LT  &kp DOT  &kp GT  &kp LBKT    &trans  &kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans  &trans    &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL
+&trans  &kp NUHS  &kp TILDE2  &kp TILDE  &trans  &trans    &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans                                                                       &trans
             >;
 
