@@ -25,7 +25,16 @@
         };
     };
 
-  behaviors {
+    behaviors {
+        lt_to_layer_0: lt_to_layer_0 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_TAP_TO_0";
+            bindings = <&mo>, <&to_layer_0>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
         toJIS: toJIS {
             compatible = "zmk,behavior-hold-tap";
             label = "toJIS";
@@ -35,39 +44,33 @@
             bindings = <&tog>, <&kp>;
         };
         mo2: mo2 {
-   　　　　 compatible = "zmk,behavior-mod-morph";
-   　　　　 #binding-cells = ;
-   　　　　 bindings = <&kp N2>, <&morph_DQT>;
-   　　　　 mods = <(MOD_LSFT|MOD_RSFT)>;
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp N2>, <&kp DQT>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo6: mo6 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N6>, <&kp N7>;
+            bindings = <&kp N6>, <&kp AMPS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo7: mo7 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N7>, <&kp SQT>;
+            bindings = <&kp N7>, <&kp APOS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo8: mo8 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N8>, <&kp N9>;
+            bindings = <&kp N8>, <&kp LPAR>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo9: mo9 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N9>, <&kp N0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        mo0: mo0 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N0>, <&kp LS(N9)>;
+            bindings = <&kp N9>, <&kp RPAR>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moMINUS: moMINUS {
@@ -140,8 +143,8 @@
         default_layer {
             bindings = <
 &kp Q           &kp W         &kp E         &kp R             &kp T                                             &kp Y          &kp U        &kp I      &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F             &kp G        &kp LS(LG(S))         &kp SEMICOLON      &kp H          &kp J        &kp K      &kp L    &kp SQT
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C             &kp V        &kp B                 &kp MINUS  &kp N          &kp M        &kp COMMA  &kp DOT  &kp SLASH
+&kp A           &kp S         &kp D         &kp F             &kp G        &kp LS(LG(S))         &kp MINUS      &kp H          &kp J        &kp K      &kp L    &kp SQT
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C             &kp V        &kp B                 &kp SEMICOLON  &kp N          &kp M        &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                   &kp BACKSPACE  &kp ENTER                        &kp DEL
             >;
 
