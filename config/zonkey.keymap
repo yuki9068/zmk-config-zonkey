@@ -73,10 +73,10 @@
             bindings = <&kp N9>, <&kp LPAR>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        mo10: mo10 {
+        moMINUS: moMINUS {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp KP_MINUS>, <&kp UNDERSCORE>;
+            bindings = <&kp KP_MINUS>, <&kp LS(INT_RO)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo11: mo11 {
