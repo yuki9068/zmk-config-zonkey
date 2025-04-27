@@ -43,10 +43,10 @@
             quick-tap-ms = <0>;
             bindings = <&tog>, <&kp>;
         };
-        mo2: mo2e_escape {
+        mo2: mo2 {
             compatible = "zmk,behavior-mod-morph";
-            #binding-cells = ;
-            bindings = <&kp N2>, <&kp DQT>;
+            #binding-cells = <0>;
+            bindings = <&kp N2>, <&kp LBKT>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo6: mo6 {
