@@ -82,7 +82,7 @@
         moCARET: moCARET {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp CARET>, <&kp PLUS>;
+            bindings = <&kp KC_CIRC>, <&kp PLUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
          moINT3: moINT3 {
