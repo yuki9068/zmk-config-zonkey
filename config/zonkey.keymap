@@ -167,7 +167,7 @@
 
         layer_2 {
             bindings = <
- &trans         &trans        &trans          &trans          &trans                                                         &trans         &trans        &trans          &trans          &trans
+ &trans         &mo2        &trans          &trans          &trans                                                         &mo6         &mo7        &mo8          &mo9          &mo0
 &trans         &trans         &trans        &trans          &trans          &trans                          &trans         &trans         &trans        &trans          &trans          &trans
 &trans         &trans         &trans        &trans          &trans          &trans                          &trans         &trans         &trans        &trans          &trans          &trans
 &trans         &trans         &trans        &lt 6 INT_HENKAN    &lt 2 SPACE   &lt 4 INT_MUHENKAN             &trans        &trans                                                       &trans
