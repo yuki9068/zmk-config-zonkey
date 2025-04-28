@@ -121,12 +121,12 @@
             bindings = <&kp APOSTROPHE>, <&kp DQT>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        moBSLH: moBSLH {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp KC_BSLS>, <&kp KC_UNDS>;
-            mods = <(&kp MOD_LSFT|MOD_RSFT)>;
-        };
+          moBSLH: moBSLH {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = ;
+            bindings = <&kp KC_BSLS>, <&kp KC_UNDS>;
+            mods = <(MOD_LSFT | MOD_RSFT)>;
+        };
         scroll_down_up: behavior_sensor_rotate_mouse_wheel_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
