@@ -112,6 +112,12 @@
             bindings = <&kp LS(LBRC)>, <&kp LS(EQUAL)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+         mo18: mo18 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LBRC)>, <&kp LS(EQUAL)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
         scroll_down_up: behavior_sensor_rotate_mouse_wheel_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
@@ -142,8 +148,8 @@
             bindings = <
 &kp GRAVE         &trans         &trans        &trans          &trans                                                               &trans         &trans        &mo10      &mo11     &mo12
 &toJIS 1 TAB      &trans         &trans        &trans          &trans          &trans                                &trans         &trans         &trans         &trans       &mo13        &mo14
-&kp CAPS          &trans         &trans       &trans          &trans          &trans                                &trans         &trans         &trans         &moSEMI      &mo15      &mo16
-&mt LCTL ESC      &trans         &trans        &lt 5 INT_HENKAN    &lt 4 SPACE   &lt 1 INT_MUHENKAN                  &trans         &trans                                               &mo17
+&kp CAPS          &trans         &trans       &trans          &trans          &trans                                &trans         &trans         &trans         &mo15      &mo16      &mo17
+&mt LCTL ESC      &trans         &trans        &lt 5 INT_HENKAN    &lt 4 SPACE   &lt 1 INT_MUHENKAN                  &trans         &trans                                               &mo18
             >;
 
             sensor-bindings = <&scroll_down_up>;
