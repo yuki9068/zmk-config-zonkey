@@ -103,12 +103,12 @@
             bindings = <&kp RBKT>, <&kp AMPS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        moRBKT: moRBKT {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp NUHS>, <&kp TILDE2>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
+            moBSLH: moBSLH {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = ;
+            bindings = <&kp KC_BSLS>, <&kp KC_UNDS>;
+            mods = <(MOD_LSFT | MOD_RSFT)>;
+        };
         moSEMI: moSEMI {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
