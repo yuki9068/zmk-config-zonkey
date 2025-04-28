@@ -106,14 +106,12 @@
             bindings = <&kp LS(LBRC)>, <&kp LS(EQUAL)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-    }; 
 　　　　　mo17: mo17 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp LS(LBRC)>, <&kp LS(EQUAL)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-    }; 
         scroll_down_up: behavior_sensor_rotate_mouse_wheel_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
