@@ -73,10 +73,10 @@
             bindings = <&kp N9>, <&kp LPAR>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        moMINUS: moMINUS {
+        mo10: mo10 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp KP_MINUS>, <&kp LS(INT_RO)>;
+            bindings = <&kp KP_MINUS>, <&kp UNDERSCOR>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         mo11: mo11 {
@@ -100,7 +100,7 @@
         moLBKT: moLBKT {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp RBKT>, <&kp AMPS>;
+            bindings = <&kp RBKT>, <&kp RBRC>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moRBKT: moRBKT {
@@ -124,7 +124,7 @@
         moBSLH: moBSLH {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp BSLH>, <&kp UNDER>;
+            bindings = <&kp BSLH>, <&kp LS(INT_RO)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         scroll_down_up: behavior_sensor_rotate_mouse_wheel_down_up {
