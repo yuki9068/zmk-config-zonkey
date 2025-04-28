@@ -153,9 +153,9 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE         &trans         &trans        &trans          &trans                                                       &trans         &trans        &moMINUS      &moEQUAL     &moLBKT
+&kp GRAVE         &trans         &trans        &trans          &trans                                                       &trans         &trans        &moMINUS      &moEQUAL     &trans
 &toJIS 1 TAB      &trans         &trans        &trans          &trans          &trans                            &trans         &trans         &trans         &trans      &moRBKT        &moLBKT
-&kp CAPS          &trans         &trans       &trans          &trans          &trans                            &trans         &trans         &trans         &moSEMI      &moCOLON       moSQT
+&kp LEFT_SHIFT    &trans         &trans       &trans          &trans          &trans                            &trans         &trans         &trans         &moSEMI      &moCOLON       moSQT
 &mt LCTL ESC      &trans         &trans        &lt 5 INT_HENKAN    &lt 4 SPACE   &lt 1 INT_MUHENKAN             &trans         &trans                                                    &moGRAVE
             >;
 
