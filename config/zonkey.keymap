@@ -156,8 +156,8 @@
 
         layer_1 {
             bindings = <
-&trans         &trans         &trans        &trans          &trans                                                               &trans         &trans        &moA          &moB          &moC
-&trans      &trans         &trans        &trans          &trans          &trans                                &trans         &trans         &trans         &trans         &moD         &moE
+&kp ESC         &trans         &trans        &trans          &trans                                                               &trans         &trans        &moA          &moB          &moC
+&kp TAB      &trans         &trans        &trans          &trans          &trans                                &trans         &trans         &trans         &trans         &moD         &moE
 &trans         &trans         &trans       &trans          &trans          &trans                                &trans         &trans         &trans         &moF         &moG         &moH
 &mt LCTL ESC      &trans         &trans        &lt 5 INT_HENKAN    &lt 4 SPACE   &lt 1 INT_MUHENKAN                  &trans         &trans                                              &moI
             >;
