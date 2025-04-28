@@ -82,7 +82,7 @@
         moCARET: moCARET {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp　KC_CIRC>, <&kp PLUS>;
+            bindings = <&kp KC_CIRC>, <&kp PLUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
          moINT3: moINT3 {
@@ -124,7 +124,7 @@
         moBSLH: moBSLH {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp  NUBS>, <&kp >;
+            bindings = <&kp KC_BSLS>, <&kp KC_UNDS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         scroll_down_up: behavior_sensor_rotate_mouse_wheel_down_up {
