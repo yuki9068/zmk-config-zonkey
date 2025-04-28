@@ -88,7 +88,7 @@
          moINT3: moINT3 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp INT3>, <&kp PIPE>;
+            bindings = <&kp INT3>, <&KC_PIPE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moAT: moAT {
@@ -124,7 +124,7 @@
         moBSLH: moBSLH {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp BSLH>, <&kp UNDER>;
+            bindings = <&kp　KC_BSLS>, <&kp LS(INT_RO>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         scroll_down_up: behavior_sensor_rotate_mouse_wheel_down_up {
@@ -188,8 +188,8 @@
 
         layer_4 {
             bindings = <
-&kp PIPE2  &kp TILDE  &kp KP_EQUAL  &kp KP_LPAR  &kp KP_RPAR                                    &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4
-&kp HOME  &kp END  &kp PG_UP  &kp PG_DN  &trans  &trans    &trans       &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4
+&trans  &kp TILDE  &kp KP_EQUAL  &kp KP_LPAR  &kp KP_RPAR                                    &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4
+&trans  &trans  &trans  &trans  &trans  &trans    &trans       &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4
 &trans  &trans  &trans  &trans  &trans  &trans                                 &bootloader  &trans         &trans         &trans         &trans         &bt BT_CLR
 &trans  &trans  &trans  &trans  &trans  &trans                              &trans         &trans                                                      &bt BT_CLR_ALL
             >;
