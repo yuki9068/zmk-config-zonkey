@@ -76,7 +76,7 @@
             bindings = <&kp CARET>, <&kp TILDE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        mo12T: mo12 {
+        mo12: mo12 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp RBKT>, <&kp LS(RBRC)>;
