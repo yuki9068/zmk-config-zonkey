@@ -36,6 +36,7 @@
 #define JP_KANA         LANGUAGE_1        // かな
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
+#define JP_BSLH  INT1         // (backslash)
 
 &mt {
     flavor = "balanced";
@@ -114,7 +115,7 @@
         moC: moC {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp INT3>, <&kp PIPE>;
+            bindings = <&kp INT3>, <&kp JP_PIPE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         moD: moD {
@@ -150,7 +151,7 @@
          moI: moI {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp BACKSLASH>, <&kp TILDE2>;
+            bindings = <&kp JP_BSLH>, <&kp JP_UNDERSCORE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
           scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
