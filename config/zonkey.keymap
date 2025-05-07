@@ -206,10 +206,10 @@
 
         layer_1 {
             bindings = <
-&kp JP_HANZEN  &trans  &trans  &trans            &trans                                          &trans       &trans  &moA    &moB  &moC
-&kp TAB        &trans  &trans  &trans            &trans       &trans                &trans       &trans       &trans  &trans  &moD  &moE
-&trans         &trans  &trans  &trans            &trans       &trans                &kp JP_EISU  &kp JP_KANA  &trans  &moF    &moG  &moH
-&mt LCTL ESC   &trans  &trans  &lt 5 INT_HENKAN  &lt 4 SPACE  &lt 1 INT_MUHENKAN                 &trans       &trans                      &moI
+&kp JP_HANZEN  &trans  &trans  &trans            &trans                                                       &trans       &trans  &moA    &moB  &moC
+&kp TAB        &trans  &trans  &trans            &trans       &trans                             &trans       &trans       &trans  &trans  &moD  &moE
+&trans         &trans  &trans  &trans            &trans       &trans                             &kp JP_EISU  &kp JP_KANA  &trans  &moF    &moG  &moH
+&mt LCTL ESC   &trans  &trans  &lt 5 INT_HENKAN  &lt 4 SPACE  &lt 1 INT_MUHENKAN                 &trans       &trans                             &moI
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -218,9 +218,9 @@
         layer_2 {
             bindings = <
 &kp N1  &mo2    &kp N3  &kp N4            &kp N5                                     &mo6    &mo7    &mo8    &mo9    &mo0
-&trans  &trans  &trans  &trans            &trans       &trans                &trans  &trans  &trans  &trans  &kp C_MENU_UP  &trans
-&trans  &trans  &trans  &trans            &trans       &trans                &trans  &trans  &trans  &kp C_MENU_LEFT  &kp C_MENU_DOWN  &kp C_MENU_RIGHT
-&trans  &trans  &trans  &lt 0 INT_HENKAN  &lt 2 SPACE  &lt 4 INT_MUHENKAN            &trans  &trans                          &trans
+&trans  &trans  &trans  &trans            &trans       &trans                        &trans  &trans  &trans  &trans  &kp C_MENU_UP  &trans
+&trans  &trans  &trans  &trans            &trans       &trans                        &trans  &trans  &trans  &kp C_MENU_LEFT  &kp C_MENU_DOWN  &kp C_MENU_RIGHT
+&trans  &trans  &trans  &lt 0 INT_HENKAN  &lt 2 SPACE  &lt 4 INT_MUHENKAN            &trans  &trans                                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -248,10 +248,10 @@
         };
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                        &kp MINUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
-&trans  &trans  &trans  &trans  &trans  &trans    &trans                      &kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans  &trans    &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD       &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans                                &trans           &trans                                                           &trans
+&trans  &trans  &trans  &trans  &trans                            &kp MINUS   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
+&trans  &trans  &trans  &trans  &trans  &trans          &trans    &kp SLASH   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK
+&trans  &trans  &trans  &trans  &trans  &trans          &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD   &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans                                                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
