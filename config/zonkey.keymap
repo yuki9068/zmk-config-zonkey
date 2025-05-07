@@ -219,7 +219,7 @@
             bindings = <
 &kp N1  &mo2    &kp N3  &kp N4            &kp N5                                     &mo6    &mo7    &mo8    &mo9    &mo0
 &trans  &trans  &trans  &trans            &trans       &trans                &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans            &trans       &trans                &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans            &trans       &trans                &trans  &trans  &trans  &trans  &trans  C_MENU_RIGHT
 &trans  &trans  &trans  &lt 0 INT_HENKAN  &lt 2 SPACE  &lt 4 INT_MUHENKAN            &trans  &trans                          &trans
             >;
 
